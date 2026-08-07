@@ -12,25 +12,17 @@ This project investigates phishing email detection using traditional machine lea
 - Bidirectional LSTM
 - DistilBERT
 
+## Pretrained Model Weights
+Due to GitHub file size limits, the trained model checkpoints and weights are hosted on Google Drive:
+
+**[Download Trained Model Checkpoints (.zip)]
+(https://drive.google.com/file/d/1IY-xaBQynRryjkZ7c6Z8R1cHAqCudgt9/view?usp=drive_link)**
+
+*Note: Extract the downloaded archive into the `notebooks/distilbert_results/` directory before running the evaluation scripts.*
+
 ## Project Structure
+```text
 data/
 models/
 notebooks/
 results/
-
-## Requirements
-Python 3.11+
-Install dependencies
-pip install -r requirements.txt
-
-## Run Order
-1. 01_Data_Understanding_and_Feature_Engineering.ipynb
-2. 02_Advanced_Models.ipynb
-3. 03_LSTM_Model.ipynb
-4. 04_BERT_Model.ipynb
-5. 05_Model_Comparison_and_Analysis.ipynb
-
-## Author
-Abhishek Prasad Jagtap
-
-National College of Ireland
