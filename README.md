@@ -19,16 +19,21 @@ Due to GitHub file size limits, the trained model checkpoints and weights are ho
 (https://drive.google.com/file/d/1IY-xaBQynRryjkZ7c6Z8R1cHAqCudgt9/view?usp=drive_link)**
 
 ## Project Structure
-```text
+
 data/
+
 models/
+
 notebooks/
+
 results/
 
-## Requirements 
+## Requirements
 - Python 3.11+
 - Install dependencies:
-  ```bash
+  
+  bash
+  
   pip install -r requirements.txt
 
 ## Run Order
@@ -42,7 +47,7 @@ results/
 
 05_Model_Comparison_and_Analysis.ipynb
 
-** Author **
+## Author
 Abhishek Prasad Jagtap
 
 National College of Ireland
